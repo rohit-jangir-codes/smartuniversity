@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">smart university</string>
+    <string name="dashbord">Dashbord</string>
+
+    <string name="lost_and_found">lost and found</string>
+
+    <string name="food">FOOD</string>
+
+    <string name="lost_or_found">lost or found</string>
+
+    <string name="events">events</string>
+
+
+    <string name="todo" translatable="false">TODO</string>
+    <string name="note_please_carry_the_exact_amount_of_food_ordered_while_collecting_the_food_from_canteen_counter_since_we_don_t_accept_online_payment">NOTE: please carry the exact amount of food ordered while collecting the food from canteen counter since we don\'t accept online payment.</string>
+
+</resources>
