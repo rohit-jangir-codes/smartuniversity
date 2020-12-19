@@ -43,6 +43,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i=new Intent(this,food.class);
                 startActivity(i);
                 break;
+            case R.id.c3:
+                i=new Intent(this,lost_or_found.class);
+                startActivity(i);
+                break;
+            case R.id.c2:
+                i=new Intent(this,done1.class);
+                startActivity(i);
+                break;
+            case R.id.c6:
+                i = new Intent(this,preference1.class);
+                startActivity(i);
+                break;
+            case R.id.c5:
+                i=new Intent(this,preference.class);
+                startActivity(i);
+                break;
+
         }
 
     }

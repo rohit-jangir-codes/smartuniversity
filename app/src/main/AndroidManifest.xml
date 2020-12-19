@@ -9,19 +9,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartUniversity">
-        <activity android:name=".place_food"
-            android:parentActivityName=".food">
+        <activity android:name=".update"
+            android:parentActivityName=".MainActivity">
 
         </activity>
-        <activity android:name=".food"
-            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".preference"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".preference1"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".event_show"
+            android:parentActivityName=".done1" />
+        <activity
+            android:name=".events"
+            android:parentActivityName=".done1" />
+        <activity
+            android:name=".done1"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".register"
+            android:parentActivityName=".login" />
+        <activity
+            android:name=".place_food"
+            android:parentActivityName=".food" />
+        <activity
+            android:name=".food"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".lost_or_found"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".clean_feedback"
             android:parentActivityName=".clean" />
         <activity
             android:name=".clean"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

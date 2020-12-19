@@ -11,11 +11,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="184dp"
+        android:layout_marginBottom="96dp"
         android:text="PLACE FOOD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -35,9 +34,9 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:ems="10"
-        android:hint="tem 3"
+        android:hint="item 3"
         android:inputType="textPersonName"
         android:onClick="placeOrder"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +64,7 @@
         android:layout_height="52dp"
         android:layout_marginTop="4dp"
         android:text="place your food here:"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

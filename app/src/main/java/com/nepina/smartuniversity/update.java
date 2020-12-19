@@ -6,16 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class place_food extends AppCompatActivity {
+public class update extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_place_food);
+        setContentView(R.layout.activity_update);
+
 
         Intent inte1 = getIntent();
-        String message2 = inte1.getStringExtra(food.msg1);
-        TextView textView = findViewById(R.id.textView4);
-        textView.setText(message2);
+        String message5 = inte1.getStringExtra(preference.msg5);
+        TextView textView = findViewById(R.id.textView12);
+        textView.setText(message5);
+
     }
 }

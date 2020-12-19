@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class clean extends AppCompatActivity {
     public static final String msg = "com.nepina.smartuniversity.Query";
@@ -28,5 +29,9 @@ public class clean extends AppCompatActivity {
         + editText3.getText().toString()+" "+" has been successfully received. we will be doing it soon. Thank you for your concern.";
         intent.putExtra(msg, message);
         startActivity(intent);
+
+        Toast.makeText(clean.this,
+                "Query submitted!",
+                Toast.LENGTH_SHORT).show();
     }
 }

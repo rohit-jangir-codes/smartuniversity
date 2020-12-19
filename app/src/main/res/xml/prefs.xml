@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Enable dark mode">
+
+
+        <CheckBoxPreference
+            android:title="Dark Mode"
+            android:key="NIGNT"
+            android:summaryOff="Dark Mode Disabled"
+            android:summaryOn="Dark Mode Enabled"
+            android:defaultValue="false"
+
+
+        >
+
+
+    </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Screen orientation">
+        <ListPreference
+            android:defaultValue="false"
+            android:title="orientation:"
+            android:entries="@array/items_name"
+            android:entryValues="@array/items_value"
+            android:key="ORIENTATION"/>
+
+    </PreferenceCategory>
+    <ListPreference android:title="Team-Code Champ" />
+
+
+
+</PreferenceScreen>

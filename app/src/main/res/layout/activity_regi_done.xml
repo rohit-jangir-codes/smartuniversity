@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".done1">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_float"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@android:drawable/ic_input_add"
+
+
+        android:layout_alignParentRight="true"
+        android:onClick="events"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="396dp"
+        android:layout_height="66dp"
+        android:text="Upcoming events will be shown here:"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

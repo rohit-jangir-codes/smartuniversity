@@ -25,7 +25,7 @@
         android:layout_height="148dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:text="@string/note_please_carry_the_exact_amount_of_food_ordered_while_collecting_the_food_from_canteen_counter_since_we_don_t_accept_online_payment"
+        android:text="note please carry the exact amount of food ordered while collecting the food from canteen counter since we do not accept online payment."
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
